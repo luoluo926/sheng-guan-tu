@@ -6,9 +6,9 @@
 
 **Shengguan Tu · Records of Eminent Officials** develops from *Shengguan Tu: Imperial Examination Edition* (升官图·科举版). Through illustrated environments, character identities, action cards, and the four-sided judgment top, it brings a traditional Chinese culture of examination and official advancement into the space of digital art.
 
-![Illustrated examination board from the game](assets/board/board_background_v5.png)
+![Guangxu-period folding Shengguan Tu, Palace Museum, inventory 故179983](assets/board/historical-shengguan-tu.png)
 
-*Illustrated game-board artwork. For the playable interface, use the browser link above.*
+*The Guangxu-period folding Shengguan Tu held by the Palace Museum (inventory 故179983), the historical object this edition works from.*
 
 ## Screenshots
 
