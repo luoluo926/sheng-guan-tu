@@ -18,7 +18,7 @@
 </div>
 <div align="center">
   <img src="assets/screenshots/gameplay-scholar-mode.png" alt="The same board in Scholar mode, with commoner personas at the table" width="49%" />
-  <img src="assets/screenshots/loading-screen.png" alt="Loading screen with an examination-ladder tip" width="49%" />
+  <img src="assets/screenshots/boot-sequence.png" alt="Loading screen with an examination-ladder tip" width="49%" />
 </div>
 
 *The examination ladder in play, character selection in Notables mode, the same board in Scholar mode, and the loading screen.*
@@ -130,7 +130,7 @@ The site is published straight from the `release` branch, with no build step, so
 </div>
 <div align="center">
   <img src="assets/screenshots/gameplay-scholar-mode.png" alt="书生模式的对局界面" width="49%" />
-  <img src="assets/screenshots/loading-screen.png" alt="带科举提示的加载界面" width="49%" />
+  <img src="assets/screenshots/boot-sequence.png" alt="带科举提示的加载界面" width="49%" />
 </div>
 
 *依次为科举阶梯对局、名臣模式选角、书生模式对局与加载界面。*
