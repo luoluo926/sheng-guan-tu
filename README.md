@@ -13,9 +13,9 @@ Each match seats two to four players. On your turn you either play a hand card o
 
 ## Modes
 
-**Scholar** is the approachable mode. You pick one of eight commoner personas, each with a starting position and a passive trait, then play the promotion race.
+**Scholar** is the approachable mode. You pick one of six commoner personas, each with a starting position and a passive trait, then play the promotion race.
 
-**Notables** casts every seat as a historical figure from the Song, Ming, and Qing courts, each with their own ability tuned to a particular stage of the climb.
+**Notables** casts every seat as one of six historical figures from the Song, Ming, and Qing courts, each with their own ability tuned to a particular stage of the climb.
 
 Both modes share the same board, deck, and resolution rules, so switching modes never changes what you already know about the game.
 
