@@ -2,13 +2,26 @@
 
 *Historical play, reinterpreted through a digital medium.*
 
-[Play in browser](https://37k7pztvvw9neu47eoq.traesite.cn/) · [Repository](https://github.com/luoluo926/sheng-guan-tu) · [Contact](mailto:3240100942@zju.edu.cn)
+[Play in browser](https://luoluo926.github.io/sheng-guan-tu/) · [Mirror](https://37k7pztvvw9neu47eoq.traesite.cn/) · [Repository](https://github.com/luoluo926/sheng-guan-tu) · [Contact](mailto:3240100942@zju.edu.cn)
 
 **Shengguan Tu · Records of Eminent Officials** develops from *Shengguan Tu: Imperial Examination Edition* (升官图·科举版). Through illustrated environments, character identities, action cards, and the four-sided judgment top, it brings a traditional Chinese culture of examination and official advancement into the space of digital art.
 
 ![Illustrated examination board from the game](assets/board/board_background_v5.png)
 
 *Illustrated game-board artwork. For the playable interface, use the browser link above.*
+
+## Screenshots
+
+<div align="center">
+  <img src="assets/screenshots/gameplay-exam-ladder.png" alt="Examination ladder during a play phase, with a card in hand" width="49%" />
+  <img src="assets/screenshots/character-select.png" alt="Character selection in Notables mode" width="49%" />
+</div>
+<div align="center">
+  <img src="assets/screenshots/gameplay-scholar-mode.png" alt="The same board in Scholar mode, with commoner personas at the table" width="49%" />
+  <img src="assets/screenshots/loading-screen.png" alt="Loading screen with an examination-ladder tip" width="49%" />
+</div>
+
+*The examination ladder in play, character selection in Notables mode, the same board in Scholar mode, and the loading screen.*
 
 ## A miniature world of officialdom
 
@@ -47,7 +60,7 @@ Visual materials were produced with generative-AI assistance, followed by human 
 
 Players begin at **白丁** and take turns using cards and a spinning top. The outcomes **德 / 才 / 功 / 赃** interact with a player's current position and any applicable card or character effects. The game provides in-context explanations and a session record. It supports separate Chinese and English interfaces.
 
-**Play:** [Open the browser game](https://37k7pztvvw9neu47eoq.traesite.cn/) · **Code:** [GitHub repository](https://github.com/luoluo926/sheng-guan-tu).
+**Play:** [Open the browser game](https://luoluo926.github.io/sheng-guan-tu/) · **Mirror:** [traesite.cn](https://37k7pztvvw9neu47eoq.traesite.cn/) · **Code:** [GitHub repository](https://github.com/luoluo926/sheng-guan-tu).
 
 A desktop browser is recommended. The in-game handbook explains turn order, examinations, card effects, outcomes, and victory conditions.
 
@@ -85,7 +98,7 @@ The site is published straight from the `release` branch, with no build step, so
 
 *传统游艺的数字人文转译*
 
-[在线试玩](https://37k7pztvvw9neu47eoq.traesite.cn/) · [源码](https://github.com/luoluo926/sheng-guan-tu) · [联系](mailto:3240100942@zju.edu.cn)
+[在线试玩](https://luoluo926.github.io/sheng-guan-tu/) · [镜像](https://37k7pztvvw9neu47eoq.traesite.cn/) · [源码](https://github.com/luoluo926/sheng-guan-tu) · [联系](mailto:3240100942@zju.edu.cn)
 
 ## 方寸官场
 
@@ -108,6 +121,19 @@ The site is published straight from the `release` branch, with no build step, so
 作品的视觉参照包括故宫馆藏升官图、晚清点石斋画报、江南贡院历史影像及清代文官补子。建筑、服饰、纹样与卡面经过重新组织，形成连续的数字场景。历史材料承担考据与启发的作用；游戏画面属于当代数字艺术表达。
 
 美术素材由生成式人工智能辅助创作，创作团队负责选择、修订和整合。Claude、Trae、OpenAI Codex 参与编程与开发迭代，历史材料的取舍、玩法与视觉方向由团队确定。
+
+## 界面一览
+
+<div align="center">
+  <img src="assets/screenshots/gameplay-exam-ladder.png" alt="科举阶梯进行中的对局界面" width="49%" />
+  <img src="assets/screenshots/character-select.png" alt="名臣模式的角色选择界面" width="49%" />
+</div>
+<div align="center">
+  <img src="assets/screenshots/gameplay-scholar-mode.png" alt="书生模式的对局界面" width="49%" />
+  <img src="assets/screenshots/loading-screen.png" alt="带科举提示的加载界面" width="49%" />
+</div>
+
+*依次为科举阶梯对局、名臣模式选角、书生模式对局与加载界面。*
 
 ## 作品与团队
 
