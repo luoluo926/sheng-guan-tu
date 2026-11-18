@@ -38,7 +38,6 @@ assets/
   ending/  end/          Ending illustrations and result screens
   fx/                    Particles and transition sprites
   audio/                 Music and sound effects (see assets/audio/CREDITS.md)
-.github/workflows/       GitHub Pages deployment
 ```
 
 ## How it is put together
@@ -65,7 +64,7 @@ Then open `http://127.0.0.1:8000/`. Opening `index.html` directly from disk also
 
 ## Deployment
 
-Pushes to the default branch trigger `.github/workflows/pages.yml`, which publishes the repository root to GitHub Pages. Because there is no build step, what is committed is what ships. The same tree is also uploaded to a separate static host; both addresses are listed at the top.
+GitHub Pages serves the `release` branch directly. A push to that branch republishes the site within a minute; there is no build step, so what is committed is what ships. The same tree is also uploaded to a separate static host, and both addresses are listed at the top.
 
 ## Assets and licensing
 
