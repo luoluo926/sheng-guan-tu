@@ -1,0 +1,103 @@
+{
+  "// 说明": "lang-zh-cn.json —— 界面文案专用。所有按钮、标签、提示文字都在这里。要做英文/日文版就复制一份改文件名（如 lang-en-us.json），游戏代码只改一行加载哪个文件。",
+
+  "setup": {
+    "title": "升 官 圖",
+    "subtitle": "名臣录 · 先到三公者荣归",
+    "playerCountLabel": "游戏人数",
+    "modeLabel": "游戏模式",
+    "modeHero": "名臣模式（选择人物，自带技能）",
+    "modeScholar": "书生模式（升官途中偶遇名臣）",
+    "heroGridLabel": "选择名臣（不可重复）",
+    "playerSlotLabel": "玩家已选名臣",
+    "slotNoPick": "未选择",
+    "slotScholar": "书生（偶遇名臣）",
+    "enterGame": "入 朝 为 官",
+    "openCollection": "名 臣 图 鉴",
+    "scholarModeHint": "书生模式：升官途中偶遇名臣，无需预选",
+    "needPickHero": "请为玩家 {name} 选择名臣",
+    "dupHero": "名臣不能重复选择"
+  },
+
+  "detail": {
+    "skillLabel": "技能说明",
+    "noteLabel": "历史小注",
+    "assignPrefix": "选给玩家",
+    "alreadyAssigned": "已选",
+    "close": "关闭"
+  },
+
+  "game": {
+    "btnDice": "转 陀 螺",
+    "btnPlayCard": "出 牌",
+    "btnPass": "跳 过",
+    "btnDismiss": "挡 掉",
+    "btnAccept": "接 受",
+    "btnReject": "拒 绝",
+    "btnPathZhixianContinue": "继续外官（知县）",
+    "btnPathZhixianSwitch": "改走科道·监察御史",
+    "btnPathJurushiContinue": "继续外放（知府）",
+    "btnPathJurushiSwitch": "留京·翰林院侍讲",
+    "btnExplain": "展 开 说 明",
+    "btnHideFloat": "收 起",
+    "btnEnd": "结 束",
+    "btnNext": "下 一 步",
+
+    "phases": {
+      "play": "出牌阶段",
+      "react": "被参劾响应",
+      "dice": "转陀螺",
+      "path": "选择仕途",
+      "swap": "是否换技能",
+      "exam": "京察指认"
+    },
+    "spin": {
+      "de": "德",
+      "cai": "才",
+      "gong": "功",
+      "zang": "赃"
+    },
+    "cardName": {
+      "canhe": "参劾",
+      "bianbai": "辩白",
+      "dadian": "打点"
+    },
+    "cardIcon": {
+      "canhe": "劾",
+      "bianbai": "辩",
+      "dadian": "贿"
+    }
+  },
+
+  "collection": {
+    "title": "名 臣 图 鉴",
+    "tabs": {
+      "current": "本局已见",
+      "event": "功能牌",
+      "person": "人物牌",
+      "office": "官职牌",
+      "all": "全图鉴"
+    },
+    "typeLabel": {
+      "event": "功能牌",
+      "person": "人物牌",
+      "office": "官职牌"
+    },
+    "locked": "未解锁",
+    "noData": "游戏中遇到的官职、人物、事件会记录在这里<br/>开始游戏后逐步解锁",
+    "noDataOther": "暂无数据",
+    "approvedSeal": "核准",
+    "pendingSeal": "待核"
+  },
+
+  "gameover": {
+    "title": "退 朝 · 论 功 行 赏",
+    "winnerRank": "第{place}名",
+    "btnClose": "退朝"
+  },
+
+  "common": {
+    "assetHint": "提示：当前使用程序生成占位图。将美工素材放入 assets 目录并修改 data/config.json 的 assets 映射后，所有人物、卡牌、底板会自动替换。",
+    "watermark": "示意棋盘 · 非故宫底本"
+  }
+}

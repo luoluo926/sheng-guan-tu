@@ -1,0 +1,44 @@
+node_modules/
+.trae/
+.trae-cn/
+.uploads/
+.DS_Store
+Thumbs.db
+*.log
+start.bat
+start.command
+preview_*.png
+preview_*.jpg
+keju_compare.png
+美术资产清单.*
+docs/
+_originals_backup/
+
+# 交付压缩包与临时脚本
+*.zip
+_*.py
+_*.ps1
+
+# 外部参考源码与本地备份（体积过大，不入库）
+tianyuan/
+backup_before_*/
+
+# 验证截图
+v5_*.png
+end_*.png
+loading-*.png
+dice_ui_*.png
+identity_card*.png
+jingcha_intro_*.png
+character_select_page*.jpg
+
+# 本地工作文档
+spec.md
+tasks.md
+README.txt
+README_RELEASE_CHECKLIST.md
+TRAE_给开发助手的提示词.txt
+.screenshots/
+.trae-html-share-packages/
+mods/
+预览总览.jpg

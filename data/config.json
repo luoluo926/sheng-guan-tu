@@ -1,0 +1,332 @@
+{
+  "// 说明": "config.json —— 策划/程序调参专用。所有数值类游戏规则、UI 配色、路径模板都在这里。修改后刷新页面即可生效，无需改动 index.html 里的 JS 逻辑。",
+  "// ========= 游戏规则参数 =========": "",
+  "game": {
+    "minPlayers": 2,
+    "maxPlayers": 4,
+    "maxRounds": 30,
+    "handCap": 3,
+    "handCapExtra": 4,
+    "initialHand": 1,
+    "jingchaRound": 5,
+    "jingchaMinPlayers": 3,
+    "demoteRankMax": 4,
+    "spinFaces": [
+      "de",
+      "cai",
+      "gong",
+      "zang"
+    ],
+    "spinSteps": {
+      "de": 3,
+      "cai": 2,
+      "gong": 1,
+      "zang": -1
+    },
+    "skill": {
+      "hanlinCaiBonus": 1,
+      "waiguanDeBonus": 1
+    },
+    "// 新增玩法：俸禄线/考绩/科场加恩/三品以上双骰": "",
+    "fangluThresholdRank": 9,
+    "kaojiEveryRounds": 3,
+    "shuangtouThresholdRank": 5
+  },
+  "// ========= 路径模板（美工出图后改这里，刷新即生效） =========": "",
+  "assets": {
+    "// 背景": "",
+    "bg_setup": "assets/bg/setup.webp",
+    "bg_game": "assets/bg/game.webp",
+    "// 名臣立绘（游戏内头像 + 图鉴大卡 + 详情弹层）": "",
+    "hero_liu": "assets/cards/hero/hero_liu.webp",
+    "hero_he": "assets/cards/hero/hero_he.webp",
+    "hero_ji": "assets/cards/hero/hero_ji.webp",
+    "hero_zheng": "assets/cards/hero/hero_zheng.webp",
+    "hero_lin": "assets/cards/hero/hero_lin.webp",
+    "hero_zeng": "assets/cards/hero/hero_zeng.webp",
+    "// 官职小图（浮卡 + 图鉴卡）": "",
+    "office_baiding": "assets/cards/office_baiding.webp",
+    "office_tongsheng": "assets/cards/office_tongsheng.webp",
+    "office_anshou": "assets/cards/office_anshou.webp",
+    "office_jiansheng": "assets/cards/office_jiansheng.webp",
+    "office_shengyuan": "assets/cards/office_shengyuan.webp",
+    "office_linsheng": "assets/cards/office_linsheng.webp",
+    "office_gongsheng": "assets/cards/office_gongsheng.webp",
+    "office_xiucai": "assets/cards/office_xiucai.webp",
+    "office_juren": "assets/cards/office_juren.webp",
+    "office_jieyuan": "assets/cards/office_jieyuan.webp",
+    "office_huiyuan": "assets/cards/office_huiyuan.webp",
+    "office_erjia": "assets/cards/office_erjia.webp",
+    "office_jinshi": "assets/cards/office_jinshi.webp",
+    "office_tanhua": "assets/cards/office_tanhua.webp",
+    "office_bangyan": "assets/cards/office_bangyan.webp",
+    "office_zhuangyuan": "assets/cards/office_zhuangyuan.webp",
+    "office_bianxiu": "assets/cards/office_bianxiu.webp",
+    "office_zhuanxiu": "assets/cards/office_zhuanxiu.webp",
+    "office_zhushi": "assets/cards/office_zhushi.webp",
+    "office_zhixian": "assets/cards/office_zhixian.webp",
+    "office_zhifu": "assets/cards/office_zhifu.webp",
+    "office_tongzhi": "assets/cards/office_tongzhi.webp",
+    "office_zongdu": "assets/cards/office_zongdu.webp",
+    "office_shilang": "assets/cards/office_shilang.webp",
+    "office_shangshu": "assets/cards/office_shangshu.webp",
+    "office_daxueshi": "assets/cards/office_daxueshi.webp",
+    "office_sangong": "assets/cards/office_sangong.webp",
+    "// 名臣人物卡（特殊掉落事件用）": "",
+    "person_zhangjian": "assets/cards/person_zhangjian.webp",
+    "// 功能牌 / 事件牌图（图鉴 + 出牌按钮上的小图标）": "",
+    "card_canhe": "assets/cards/card_canhe.webp",
+    "card_bianbai": "assets/cards/card_bianbai.webp",
+    "card_dadian": "assets/cards/card_dadian.webp",
+    "card_flower": "assets/cards/card_flower.webp",
+    "card_addrank": "assets/cards/card_addrank.webp",
+    "card_jiji": "assets/cards/card_jiji.webp",
+    "card_qingke": "assets/cards/card_qingke.webp",
+    "// UI 装饰（所有界面上的装饰图）": "",
+    "map_png": "assets/ui/map.webp",
+    "dice_png": "assets/ui/dice.webp",
+    "seal_pending": "assets/ui/seal_pending.webp",
+    "seal_approved": "assets/ui/seal_approved.webp",
+    "corner_deco": "assets/ui/corner.webp"
+  },
+  "// ========= UI 配色令牌（设计师调样式改这里） =========": "",
+  "theme": {
+    "--bg-deep": "#f3ebd9",
+    "--bg-panel": "#f7f0dd",
+    "--paper": "#f7f0dd",
+    "--paper-dim": "#e4d8bd",
+    "--gold": "#a68b52",
+    "--gold-dim": "#7d6742",
+    "--gold-glow": "rgba(166, 139, 82, 0.32)",
+    "--zhu": "#a4483a",
+    "--zhu-dim": "#7c352a",
+    "--jade": "#5d7a5f",
+    "--ink": "#2c2823",
+    "--text": "#2c2823",
+    "--text-dim": "#7c7568",
+    "--border": "rgba(164, 72, 58, 0.24)",
+    "--panel-border": "#d3c6ac",
+    "--shadow": "0 12px 36px rgba(120, 90, 40, 0.16)",
+    "// 新接口：所有硬编码渐变/底色都抽成 CSS 变量，美工可一键换": "",
+    "--btn-primary": "linear-gradient(180deg, #8b5340, var(--zhu))",
+    "--hand-card-bg": "linear-gradient(180deg, #f8f2e2 0%, #ece2ca 100%)",
+    "--portrait-bg": "linear-gradient(180deg, #f8f2e2, #ecdfc4)",
+    "--float-img-bg": "linear-gradient(180deg, #f8f2e2, #e9dcc0)",
+    "--dice-stage-bg": "radial-gradient(circle at 40% 35%, #f7f0dd, #dccba8 60%, #b9a67e)",
+    "--setup-bg-tile": "#f3ebd9",
+    "--panel-header-bg": "#f1e9d4",
+    "--log-area-bg": "#f8f2e2"
+  },
+  "// ========= 棋盘尺寸与美工替换接口（contain 缩放用） =========": "",
+  "board": {
+    "designWidth": 800,
+    "designHeight": 800,
+    "minFontScale": 0.7,
+    "// 每圈扇形卡片的径向厚度（px，800 坐标系）": "",
+    "cellDepth": 66,
+    "// 各圈层官名字号上限：格子越小越受限，这里只是天花板，实际会自适应取最大可读字号": "",
+    "fonts": {
+      "keju": 28,
+      "difang": 18,
+      "jingqing": 15,
+      "zhongshu": 17
+    },
+    "// 各圈层格子浅底色 / 边线色（四圈靠深浅区分）": "",
+    "ringFill": {
+      "keju": "#fffdf8",
+      "difang": "#fdf6e8",
+      "jingqing": "#faf0dc",
+      "zhongshu": "#fff7e0"
+    },
+    "ringEdge": {
+      "keju": "rgba(192,57,43,0.32)",
+      "difang": "rgba(184,148,62,0.42)",
+      "jingqing": "rgba(184,148,62,0.34)",
+      "zhongshu": "rgba(192,57,43,0.36)"
+    },
+    "// 美工出图后填路径即可替换内置矢量绘制；留空则用代码画的版本": "",
+    "// board_bg = 整张 800×800 棋盘底图；badge_start/exit/enter = 「起」「出」「入」徽标图": "",
+    "assets": {
+      "board_bg": "",
+      "badge_start": "",
+      "badge_exit": "",
+      "badge_enter": ""
+    }
+  },
+  "// ========= 存档 key =========": "",
+  "storage": {
+    "saveKey": "sgt_save_v2",
+    "collectionKey": "sgt_collection_v2"
+  },
+  "// ========= 功能牌介绍（点击手牌弹出的详情浮卡，美工可全部替换） =========": "",
+  "// 每张牌的 title / body / source 直接决定浮卡内容；img 字段从 assets.card_xxx 自动取值，填 '' 则不显示图": "",
+  "cards": {
+    "canhe": {
+      "title": "参劾",
+      "body": "点一名对手，使其退至本圈层起点；若对方持有辩白牌则可抵消。",
+      "source": "《大清律例》"
+    },
+    "bianbai": {
+      "title": "辩白",
+      "body": "被参劾时打出，抵消本次参劾；也可抵消一次停一轮。",
+      "source": "《清史稿·选举志》"
+    },
+    "dadian": {
+      "title": "打点",
+      "body": "本轮若转出「赃」，免去退格 / 革职惩罚，照常结算其他效果。",
+      "source": "清代官场陋规"
+    },
+    "flower": {
+      "title": "花红",
+      "body": "立即摸 2 张牌（额外收入，俸禄之外的人情好处）。",
+      "source": "清代官场风俗"
+    },
+    "addrank": {
+      "title": "加官",
+      "body": "品级 +1（升半阶，位置不动），可从正五直接到从四。",
+      "source": "《清史稿·职官志》"
+    },
+    "jiji": {
+      "title": "带级",
+      "body": "品级 +1 且前进 1 格（升半阶兼自动前进一格）。",
+      "source": "清代官场术语"
+    },
+    "qingke": {
+      "title": "清客",
+      "body": "本轮若转出「赃」，效果完全无效，视同转出「功」+1 资望。",
+      "source": "《清稗类钞》"
+    }
+  },
+  "// ========= 落格事件池（玩家每落一格随机触发，按圈层+rankLevel 加权抽） =========": "",
+  "landEvents": {
+    "// 权重总和不需要等于 100，引擎内部归一化；'' 表示从无到有也能抽": "",
+    "keju": {
+      "weighted": [
+        {
+          "type": "drawCard",
+          "weight": 35,
+          "count": 1,
+          "desc": "案头旧书，摸 1 张"
+        },
+        {
+          "type": "zhiwang",
+          "weight": 25,
+          "delta": 1,
+          "desc": "同窗提携，资望 +1"
+        },
+        {
+          "type": "zhiwang",
+          "weight": 15,
+          "delta": -1,
+          "desc": "师训严厉，资望 -1"
+        },
+        {
+          "type": "buff",
+          "weight": 25,
+          "key": "mianyigezhi",
+          "desc": "蒙恩师保举，下次赃可免革职"
+        }
+      ]
+    },
+    "difang": {
+      "weighted": [
+        {
+          "type": "drawCard",
+          "weight": 20,
+          "count": 1,
+          "desc": "衙署案头，摸 1 张"
+        },
+        {
+          "type": "zhiwang",
+          "weight": 25,
+          "delta": 1,
+          "desc": "治绩有声，资望 +1"
+        },
+        {
+          "type": "zhiwang",
+          "weight": 15,
+          "delta": -1,
+          "desc": "州县出缺，资望 -1"
+        },
+        {
+          "type": "deStreak",
+          "weight": 20,
+          "delta": 1,
+          "desc": "清廉自守，连续德 +1（致仕累积）"
+        },
+        {
+          "type": "gongCount",
+          "weight": 20,
+          "delta": 1,
+          "desc": "兴办粮台，立功 +1（封疆入阁累积）"
+        }
+      ]
+    },
+    "jingqing": {
+      "weighted": [
+        {
+          "type": "drawCard",
+          "weight": 18,
+          "count": 1,
+          "desc": "台省秘档，摸 1 张"
+        },
+        {
+          "type": "zhiwang",
+          "weight": 22,
+          "delta": 1,
+          "desc": "上意简在，资望 +1"
+        },
+        {
+          "type": "zhiwang",
+          "weight": 12,
+          "delta": -1,
+          "desc": "九卿会议失言，资望 -1"
+        },
+        {
+          "type": "deStreak",
+          "weight": 18,
+          "delta": 1,
+          "desc": "台谏直言，连续德 +1"
+        },
+        {
+          "type": "gongCount",
+          "weight": 15,
+          "delta": 1,
+          "desc": "奉旨查办，立功 +1"
+        },
+        {
+          "type": "punish",
+          "weight": 15,
+          "desc": "同僚弹劾，下次赃加倍"
+        }
+      ]
+    },
+    "zhongshu": {
+      "weighted": [
+        {
+          "type": "zhiwang",
+          "weight": 30,
+          "delta": 1,
+          "desc": "圣眷优隆，资望 +1"
+        },
+        {
+          "type": "deStreak",
+          "weight": 25,
+          "delta": 1,
+          "desc": "票拟得体，连续德 +1"
+        },
+        {
+          "type": "gongCount",
+          "weight": 25,
+          "delta": 1,
+          "desc": "办理枢务，立功 +1"
+        },
+        {
+          "type": "punish",
+          "weight": 20,
+          "desc": "同僚倾轧，下次赃打回京卿"
+        }
+      ]
+    }
+  }
+}

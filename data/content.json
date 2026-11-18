@@ -1,0 +1,1919 @@
+{
+  "rank": {
+    "正一": 1,
+    "从一": 2,
+    "正二": 3,
+    "从二": 4,
+    "正三": 5,
+    "从三": 6,
+    "正四": 7,
+    "从四": 8,
+    "正五": 9,
+    "从五": 10,
+    "正六": 11,
+    "从六": 12,
+    "正七": 13,
+    "从七": 14,
+    "正八": 15,
+    "从八": 16,
+    "正九": 17,
+    "从九": 18
+  },
+  "scienceDb": {
+    "白丁": {
+      "title": "白丁",
+      "body": "没有功名和官职的普通平民，是求取功名的起点，无须通过考试取得；具备报考资格后，可以参加童试。",
+      "status": "pending",
+      "grade": "无品级",
+      "tags": "可升｜起点｜阶次 1/15",
+      "de": "监生",
+      "cai": "案首",
+      "gong": "童生",
+      "zang": "不动",
+      "sourceText": "白民，猶言白丁也。",
+      "sourceRef": "周亮工《书影》卷七 释白民条",
+      "img": "office_baiding"
+    },
+    "童生": {
+      "title": "童生",
+      "body": "参加县试、府试、院试等童试而尚未取得生员资格的读书人，年龄不限；通过相应选拔并获准入学后，才能成为生员。",
+      "status": "pending",
+      "grade": "无品级",
+      "tags": "可升｜童试应试者｜阶次 2/15",
+      "de": "廪生",
+      "cai": "监生",
+      "gong": "案首",
+      "zang": "不动",
+      "sourceText": "直省士子之試於郡縣及提學，為童子試，俗謂為小考，或小試。應試者曰童生",
+      "sourceRef": "徐珂《清稗类钞》考试类 童试",
+      "img": "office_tongsheng"
+    },
+    "秀才": {
+      "title": "秀才",
+      "body": "通过院试入府、县学者。着青衿，戴方巾，见官不跪，有免役特权。",
+      "status": "pending",
+      "img": "office_xiucai"
+    },
+    "举人": {
+      "title": "举人",
+      "body": "合资格的生员、贡监生等参加乡试，中式后取得的功名；此后可参加会试，也有按规定入仕的资格，但考中不等于立即授官。",
+      "status": "pending",
+      "grade": "无品级",
+      "tags": "可升｜乡试中式｜阶次 8/15",
+      "de": "会元",
+      "cai": "进士",
+      "gong": "解元",
+      "zang": "生员",
+      "sourceText": "三年大比，試諸生於直省，曰鄉試，中式者為舉人。",
+      "sourceRef": "《清史稿》卷一百八 选举三 文科武科",
+      "img": "office_juren"
+    },
+    "进士": {
+      "title": "进士",
+      "body": "举人通过会试成为贡士，再经殿试获得的科名，分一甲、二甲、三甲；授官、选馆或候选另按规定办理，功名本身没有官品。",
+      "status": "pending",
+      "grade": "无品级",
+      "tags": "可升｜可入仕｜殿试授第｜阶次 10/15",
+      "de": "榜眼",
+      "cai": "探花",
+      "gong": "教授",
+      "zang": "举人",
+      "sourceText": "天子親策於廷，曰殿試，名第分一、二、三甲。",
+      "sourceRef": "《清史稿》卷一百八 选举三 文科武科",
+      "img": "office_jinshi"
+    },
+    "编修": {
+      "title": "翰林院编修",
+      "body": "正七品，掌修国史、起居注，常由进士一甲三名及庶吉士留馆者授。",
+      "status": "pending",
+      "img": "office_bianxiu"
+    },
+    "修撰": {
+      "title": "翰林院修撰",
+      "body": "从六品，状元专授之职，掌修国史。",
+      "status": "pending",
+      "img": "office_zhuanxiu"
+    },
+    "主事": {
+      "title": "六部主事",
+      "body": "正六品，各部司官中最低一级，掌案牍与具体事务。",
+      "status": "pending",
+      "img": "office_zhushi"
+    },
+    "知县": {
+      "title": "知县",
+      "body": "正七品，一县之长。穿青色鹭鸶补服，掌一县政令、赋役、刑名。",
+      "status": "pending",
+      "img": "office_zhixian"
+    },
+    "知府": {
+      "title": "知府",
+      "body": "从四品，一府之长，辖数州县，掌一府政令。",
+      "status": "pending",
+      "img": "office_zhifu"
+    },
+    "总督": {
+      "title": "总督",
+      "body": "从一品，辖一省或数省军政大权，如两江总督、直隶总督。",
+      "status": "pending",
+      "img": "office_zongdu"
+    },
+    "大学士": {
+      "title": "大学士",
+      "body": "正一品，殿阁大学士为文官最高荣衔，如文华殿、武英殿大学士。",
+      "status": "pending",
+      "img": "office_daxueshi"
+    },
+    "三公": {
+      "title": "三公",
+      "body": "太师、太傅、太保，正一品，位极人臣，多为赠官或荣衔。",
+      "status": "pending",
+      "img": "office_sangong"
+    },
+    "案首": {
+      "title": "案首",
+      "body": "童试某一场考试的第一名，本卡采用县试案首之义，即县试排名第一；这是考试名次，正式取得生员身份仍以入学录取为准。",
+      "status": "pending",
+      "grade": "无品级",
+      "tags": "可升｜童试首名｜阶次 3/15",
+      "de": "廪生",
+      "cai": "生员",
+      "gong": "监生",
+      "zang": "不动",
+      "sourceText": "蓋案首者，卽全邑之第一名",
+      "sourceRef": "卢湘父《万木草堂忆旧》书院应课",
+      "img": "office_anshou"
+    },
+    "监生": {
+      "title": "监生",
+      "body": "取得国子监学生身份或资格的人，可由恩赐、荫入、选优或捐纳等途径取得；符合规定者可以应乡试，并非童生之后必经的一场考试。",
+      "status": "pending",
+      "grade": "无品级",
+      "tags": "可升｜可入仕｜国子监资格｜阶次 4/15",
+      "de": "举人",
+      "cai": "典史",
+      "gong": "监生",
+      "zang": "白丁",
+      "sourceText": "監生凡四：曰恩監、廕監、優監、例監。",
+      "sourceRef": "《清史稿》卷一百六 选举一 学校一",
+      "img": "office_jiansheng"
+    },
+    "生员": {
+      "title": "生员",
+      "body": "俗称秀才，童生通过县试、府试及学政主持的院试选拔，获准进入府、州、县学学籍后取得；此后仍须接受考核，按规定取得乡试应试资格。",
+      "status": "pending",
+      "grade": "无品级",
+      "tags": "可升｜秀才｜阶次 5/15",
+      "de": "解元",
+      "cai": "举人",
+      "gong": "廪生",
+      "zang": "童生",
+      "sourceText": "生員色目，曰廩膳生、增廣生、附生。初入學曰附學生員。",
+      "sourceRef": "《清史稿》卷一百六 选举一 学校一",
+      "img": "office_shengyuan"
+    },
+    "廪生": {
+      "title": "廪生",
+      "body": "全称廪膳生员，是生员中的一种，通常由岁试、科试成绩优者按定额依次补入，可领取官府规定的廪饩；并非所有秀才都能立即享有。",
+      "status": "pending",
+      "grade": "无品级",
+      "tags": "可升｜食廪资格｜阶次 6/15",
+      "de": "解元",
+      "cai": "举人",
+      "gong": "贡生",
+      "zang": "童生",
+      "sourceText": "廩、增有定額，以歲、科兩試等第高者補充。",
+      "sourceRef": "《清史稿》卷一百六 选举一 学校一",
+      "img": "office_linsheng"
+    },
+    "贡生": {
+      "title": "贡生",
+      "body": "通过岁贡、恩贡、拔贡等途径贡入国子监的读书人，各贡途分别依年资、考选、恩诏或捐纳等取得；与会试中式的“贡士”是不同身份。",
+      "status": "pending",
+      "grade": "无品级",
+      "tags": "可升｜可入仕｜贡入资格｜阶次 7/15",
+      "de": "举人",
+      "cai": "学正",
+      "gong": "训导",
+      "zang": "案首",
+      "sourceText": "貢生凡六：曰歲貢、恩貢、拔貢、優貢、副貢、例貢。",
+      "sourceRef": "《清史稿》卷一百六 选举一 学校一",
+      "img": "office_gongsheng"
+    },
+    "解元": {
+      "title": "解元",
+      "body": "一科乡试的第一名，由参加该场乡试的考生按成绩评定；身份仍属于举人，下一步可参加会试，并非举人之外另考一次所得。",
+      "status": "pending",
+      "grade": "无品级",
+      "tags": "可升｜乡试第一｜阶次 9/15",
+      "de": "会元",
+      "cai": "二甲",
+      "gong": "进士",
+      "zang": "廪生",
+      "sourceText": "鄉試第一曰解元",
+      "sourceRef": "《清史稿》卷一百八 选举三 文科武科",
+      "img": "office_jieyuan"
+    },
+    "二甲": {
+      "title": "二甲",
+      "body": "殿试评定的第二等进士，赐“进士出身”，位列一甲三人之后；由贡士参加殿试后定等取得，属于进士，并非中进士后另考的一关。",
+      "status": "pending",
+      "grade": "无品级",
+      "tags": "可升｜可入仕｜殿试二甲｜阶次 11/15",
+      "de": "榜眼",
+      "cai": "探花",
+      "gong": "修撰",
+      "zang": "举人",
+      "sourceText": "二甲若干人，賜進士出身。",
+      "sourceRef": "《清史稿》卷一百八 选举三 文科武科",
+      "img": "office_erjia"
+    },
+    "会元": {
+      "title": "会元",
+      "body": "一科会试的第一名，由举人参加会试后按成绩评定，是同科贡士之首；后续殿试会重新评定名次，会元并不保证成为状元。",
+      "status": "pending",
+      "grade": "无品级",
+      "tags": "可升｜会试第一｜阶次 12/15",
+      "de": "状元",
+      "cai": "榜眼",
+      "gong": "探花",
+      "zang": "解元",
+      "sourceText": "會試第一曰會元",
+      "sourceRef": "《清史稿》卷一百八 选举三 文科武科",
+      "img": "office_huiyuan"
+    },
+    "探花": {
+      "title": "探花",
+      "body": "殿试一甲第三名，赐“进士及第”，由贡士参加殿试后定名次取得；清代通常授翰林院编修，授职后的官品为正七品。",
+      "status": "pending",
+      "grade": "无品级",
+      "tags": "可入仕｜一甲第三｜阶次 13/15",
+      "de": "府尹",
+      "cai": "少卿",
+      "gong": "侍读",
+      "zang": "编修",
+      "sourceText": "一甲三人，曰狀元、榜眼、探花，賜進士及第。",
+      "sourceRef": "《清史稿》卷一百八 选举三 文科武科（官品另据卷一百十五 翰林院）",
+      "img": "office_tanhua"
+    },
+    "榜眼": {
+      "title": "榜眼",
+      "body": "殿试一甲第二名，赐“进士及第”，与状元、探花由同场殿试评定；清代通常授翰林院编修，授职后的官品为正七品。",
+      "status": "pending",
+      "grade": "无品级",
+      "tags": "可入仕｜一甲第二｜阶次 14/15",
+      "de": "正卿",
+      "cai": "府尹",
+      "gong": "监察",
+      "zang": "修撰",
+      "sourceText": "榜眼、探花授編修",
+      "sourceRef": "《清史稿》卷一百八 选举三 文科武科（官品另据卷一百十五 翰林院）",
+      "img": "office_bangyan"
+    },
+    "状元": {
+      "title": "状元",
+      "body": "殿试一甲第一名，赐“进士及第”，由贡士参加殿试后定名次取得；清代通常授翰林院修撰，授职后的官品为从六品。",
+      "status": "pending",
+      "grade": "无品级",
+      "tags": "可入仕｜一甲第一｜阶次 15/15",
+      "de": "巡抚",
+      "cai": "副都",
+      "gong": "正卿",
+      "zang": "监察",
+      "sourceText": "一甲狀元授修撰",
+      "sourceRef": "《清史稿》卷一百八 选举三 文科武科（官品另据卷一百十五 翰林院）",
+      "img": "office_zhuangyuan"
+    }
+  },
+  "heroes": [
+    {
+      "id": "liu",
+      "name": "刘墉",
+      "drop": "左都御史",
+      "skill": "canhe_no_debate",
+      "desc": "督学励才：自己的常规转掷最终为“才”，并完成走子及到格结算后，可以发动：额外获得2点资望，不改变本次移动结果。",
+      "tags": "乾隆、嘉庆时期／学政、体仁阁大学士／书法家",
+      "intro": "刘墉，字崇如，山东诸城人，乾隆十六年进士。他曾任安徽、江苏学政，参与地方学务与士子考核，后来官至体仁阁大学士，也以书法闻名。",
+      "skillName": "督学励才",
+      "skillText": "自己的常规转掷最终为“才”，并完成走子及到格结算后，可以发动：额外获得2点资望，不改变本次移动结果。",
+      "times": "2次",
+      "sourceText": "督安徽学政。疏请州县约束贡监，责令察优劣。",
+      "sourceRef": "《清史稿》卷三百零二《列传八十九》，刘统勋传附刘墉传"
+    },
+    {
+      "id": "he",
+      "name": "和珅",
+      "drop": "尚书",
+      "skill": "draw_extra",
+      "desc": "聚敛招祸：自己的回合开始、转掷之前，可以支付2点资望，抽取2张功能牌，牌堆不足2张时不能发动；首次发动后，自己此后的常规转掷每逢最终结果为“赃”，在原有处罚结算完毕后，须额外自行弃置1张手牌，无手牌则不追加处罚，此风险不因第二次发动而叠加。",
+      "tags": "乾隆、嘉庆之际／军机大臣、大学士／权臣",
+      "intro": "和珅，字致斋，钮祜禄氏，曾任军机大臣、大学士等要职，深受乾隆倚重。他利用权势收受贿赂、聚敛财富；嘉庆亲政后被查办，最终获赐自尽。",
+      "skillName": "聚敛招祸",
+      "skillText": "自己的回合开始、转掷之前，可以支付2点资望，抽取2张功能牌，牌堆不足2张时不能发动；首次发动后，自己此后的常规转掷每逢最终结果为“赃”，在原有处罚结算完毕后，须额外自行弃置1张手牌，无手牌则不追加处罚，此风险不因第二次发动而叠加。",
+      "times": "主动发动2次；首次发动后的附加风险持续生效，直至退出科举阶段。",
+      "sourceText": "和珅在位时，令奏事者俱副本送军机处；呈进方物，必先关白，擅自准驳，遇不全纳者悉入私家。",
+      "sourceRef": "《清史稿》卷三百一十九《列传一百六》〈和珅传〉"
+    },
+    {
+      "id": "ji",
+      "name": "纪昀",
+      "drop": "编修",
+      "skill": "hanlin_cai",
+      "desc": "校书择要：自己的回合开始、转掷之前，可以发动：查看功能牌堆顶3张牌，选择1张加入手牌，其余按原相对顺序放至牌堆底；不足3张时查看全部剩余牌，牌堆为空时不能发动。",
+      "tags": "乾隆、嘉庆时期／《四库全书》总纂官／学者",
+      "intro": "纪昀，字晓岚，直隶献县人，乾隆十九年进士。他学识广博，担任《四库全书》总纂官，与其他馆臣共同整理典籍、编写提要，长于从繁杂文献中辨析内容、提取要旨。",
+      "skillName": "校书择要",
+      "skillText": "自己的回合开始、转掷之前，可以发动：查看功能牌堆顶3张牌，选择1张加入手牌，其余按原相对顺序放至牌堆底；不足3张时查看全部剩余牌，牌堆为空时不能发动。",
+      "times": "2次",
+      "sourceText": "从永乐大典中搜辑散逸，尽读诸行省所进书，论次为提要上之，擢侍读。",
+      "sourceRef": "《清史稿》卷三百二十《列传一百七》〈纪昀传〉"
+    },
+    {
+      "id": "zheng",
+      "name": "郑板桥",
+      "drop": "知县",
+      "skill": "block_first",
+      "desc": "周济寒士：自己的回合开始、转掷之前，可以弃置1张功能手牌，立即获得2点资望；若本回合常规转掷的最终结果为“德”，在完成常规结算后，再获得1点资望。没有手牌时不能发动。",
+      "tags": "康熙至乾隆时期／范县、潍县知县／书画家",
+      "intro": "郑板桥，本名郑燮，字克柔，江苏兴化人，乾隆元年进士。他擅长诗文、书法和兰竹绘画，也曾担任地方知县，关心乡邻与贫寒子弟，曾在家书中嘱咐家人分赠纸笔、照顾贫困同学。",
+      "skillName": "周济寒士",
+      "skillText": "自己的回合开始、转掷之前，可以弃置1张功能手牌，立即获得2点资望；若本回合常规转掷的最终结果为“德”，在完成常规结算后，再获得1点资望。没有手牌时不能发动。",
+      "times": "2次",
+      "sourceText": "纸笔墨砚，吾家所有，宜不时散给诸众同学。",
+      "sourceRef": "郑燮《郑板桥集》〈潍县寄舍弟墨第三书〉"
+    },
+    {
+      "id": "lin",
+      "name": "林则徐",
+      "drop": "巡抚",
+      "skill": "waiguan_de",
+      "desc": "查禁除弊：对手的常规转掷最终为“赃”，待该次转掷及相关功能牌全部结算完毕后，若对手仍有手牌，可以发动：令其自行选择并弃置1张功能牌；此效果不属于“参劾”，不能被“辩白”抵消。",
+      "tags": "嘉庆、道光时期／钦差大臣、督抚／禁烟大臣",
+      "intro": "林则徐，字少穆，福建侯官人，嘉庆十六年进士。他曾治理水利、赈济灾民，道光十九年赴广东查禁鸦片，主持虎门销烟，以严禁烟毒、整顿弊政著称。",
+      "skillName": "查禁除弊",
+      "skillText": "对手的常规转掷最终为“赃”，待该次转掷及相关功能牌全部结算完毕后，若对手仍有手牌，可以发动：令其自行选择并弃置1张功能牌；此效果不属于“参劾”，不能被“辩白”抵消。",
+      "times": "2次",
+      "sourceText": "檄谕英国领事义律查缴烟土，驱逐趸船，呈出烟土二万余箱，亲莅虎门验收，焚于海滨。",
+      "sourceRef": "《清史稿》卷三百六十九《列传一百五十六》〈林则徐传〉"
+    },
+    {
+      "id": "zeng",
+      "name": "曾国藩",
+      "drop": "总督",
+      "skill": "no_demote",
+      "desc": "笃学有恒：自己的回合开始、转掷之前，可以发动：从本回合起，在自己连续两个正常行动回合结束时，各获得2点资望，第二次结算后效果结束；停轮不计入这两个回合，提前退出科举阶段或游戏结束时，剩余收益不补发。",
+      "tags": "道光、咸丰、同治时期／湘军统帅、两江总督／家书作者",
+      "intro": "曾国藩，字伯涵，号涤生，湖南湘乡人，道光年间进士。他组织湘军，参与镇压太平天国，曾任两江总督；平日重视读书、修身与家庭教育，反复强调学习应当有志向、有见识、有恒心。",
+      "skillName": "笃学有恒",
+      "skillText": "自己的回合开始、转掷之前，可以发动：从本回合起，在自己连续两个正常行动回合结束时，各获得2点资望，第二次结算后效果结束；停轮不计入这两个回合，提前退出科举阶段或游戏结束时，剩余收益不补发。",
+      "times": "1次，发动后分两次结算，最多获得4点资望。",
+      "sourceText": "盖士人读书，第一要有志，第二要有识，第三要有恒。",
+      "sourceRef": "《曾文正公家书》道光二十二年十二月二十日〈致诸弟〉"
+    }
+  ],
+  "personCards": {
+    "hanlin:0": {
+      "title": "纪昀",
+      "body": "乾隆十九年进士，授翰林院编修，后任《四库全书》总纂官；学识广博，长于辨析文献、提取要旨。",
+      "source": "《清史稿》",
+      "key": "person:jixu",
+      "heroId": "ji",
+      "img": "hero_ji"
+    },
+    "waiguan:0": {
+      "title": "郑板桥",
+      "body": "乾隆元年进士，曾任范县、潍县知县；擅长诗文、书法与兰竹绘画，关心乡邻与贫寒子弟。",
+      "source": "《清史稿》",
+      "key": "person:zhengbanqiao",
+      "heroId": "zheng",
+      "img": "hero_zheng"
+    },
+    "kedao:4": {
+      "title": "刘墉",
+      "body": "乾隆十六年进士，曾任安徽、江苏学政，后官至体仁阁大学士，亦以书法闻名。",
+      "source": "《清史稿》",
+      "key": "person:liuyong",
+      "heroId": "liu",
+      "img": "hero_liu"
+    },
+    "liubu:4": {
+      "title": "和珅",
+      "body": "乾隆朝军机大臣、大学士，深受倚重；利用权势收受贿赂、聚敛财富，嘉庆亲政后被查办赐死。",
+      "source": "《清史稿》",
+      "key": "person:heshen",
+      "heroId": "he",
+      "img": "hero_he"
+    },
+    "waiguan:4": {
+      "title": "林则徐",
+      "body": "嘉庆十六年进士，治水利、赈灾民；道光十九年赴广东查禁鸦片，主持虎门销烟。",
+      "source": "《清史稿》",
+      "key": "person:linzexu",
+      "heroId": "lin",
+      "img": "hero_lin"
+    },
+    "waiguan:5": {
+      "title": "曾国藩",
+      "body": "道光年间进士，组织湘军，曾任两江总督；重视读书、修身与家庭教育，强调有志、有识、有恒。",
+      "source": "《清史稿》",
+      "key": "person:zengguofan",
+      "heroId": "zeng",
+      "img": "hero_zeng"
+    }
+  },
+  "eventCards": {
+    "c_canhe": {
+      "name": "参劾",
+      "type": "play",
+      "trigger": "对手掷出“赃”后打出：其常规处罚结算完毕，再后退1格。可被辩白抵消。",
+      "desc": "指官员向朝廷奏报并检举其他官员的过失或罪行，请求查办。",
+      "source": "“复令捐纳官莅任三年称职者，题请升转，否则参劾，以示限制。”",
+      "sourceRef": "《清史稿》卷一百一十《选举五》",
+      "img": "card_canhe",
+      "body": "【用法】对手掷出“赃”后打出：其常规处罚结算完毕，再后退1格。可被辩白抵消。\n【释义】指官员向朝廷奏报并检举其他官员的过失或罪行，请求查办。\n【史料】“复令捐纳官莅任三年称职者，题请升转，否则参劾，以示限制。”\n《清史稿》卷一百一十《选举五》"
+    },
+    "c_bianbai": {
+      "name": "辩白",
+      "type": "respond",
+      "trigger": "被参劾时立即打出，抵消该张参劾造成的额外退格。",
+      "desc": "指针对受到的指责或诬告，说明事实、申述理由，以澄清是非、表明清白。",
+      "source": "“若如此任意捃摭，甚或有交通贿嘱等语，即续经辩白，已成瑕玷。”",
+      "sourceRef": "《清仁宗实录》卷一百六",
+      "img": "card_bianbai",
+      "body": "【用法】被参劾时立即打出，抵消该张参劾造成的额外退格。\n【释义】指针对受到的指责或诬告，说明事实、申述理由，以澄清是非、表明清白。\n【史料】“若如此任意捃摭，甚或有交通贿嘱等语，即续经辩白，已成瑕玷。”\n《清仁宗实录》卷一百六"
+    },
+    "c_dadian": {
+      "name": "打点",
+      "type": "play",
+      "trigger": "自己首次掷出“赃”后、结算前打出：支付2点资望并额外弃置1张手牌，重掷一次，以第二次结果结算，不得再次重掷。",
+      "desc": "指花钱送礼、托人疏通关系，以求办事便利；这里取私下请托的含义，当时也有人以“打点衙门”为借口骗取钱财。",
+      "source": "“凡指称内外大小官员名头，并各衙门打点使用名色，诈骗财物……”",
+      "sourceRef": "《大清律例通考》卷三十五，刑律·贼盗〈诈欺官私取财〉第二条",
+      "img": "card_dadian",
+      "body": "【用法】自己首次掷出“赃”后、结算前打出：支付2点资望并额外弃置1张手牌，重掷一次，以第二次结果结算，不得再次重掷。\n【释义】指花钱送礼、托人疏通关系，以求办事便利；这里取私下请托的含义，当时也有人以“打点衙门”为借口骗取钱财。\n【史料】“凡指称内外大小官员名头，并各衙门打点使用名色，诈骗财物……”\n《大清律例通考》卷三十五，刑律·贼盗〈诈欺官私取财〉第二条"
+    },
+    "c_flower": {
+      "name": "花红",
+      "type": "play",
+      "trigger": "自己按原规则升至更高阶次、且尚未到达状元的身份格后打出：额外获得1点资望，并抽取1张功能牌。",
+      "desc": "指用于庆贺或奖励的钱物，既可表示喜事中的赏赐，也可指经营获利后给出力者的奖金；本牌取庆贺晋阶之意。",
+      "source": "“又移作奖励金之别名，例如营业有赢余时，取其一部以奖励出力者，俗称花红。”",
+      "sourceRef": "徐珂《清稗类钞》农商类〈商业有花红之奖〉",
+      "img": "card_flower",
+      "body": "【用法】自己按原规则升至更高阶次、且尚未到达状元的身份格后打出：额外获得1点资望，并抽取1张功能牌。\n【释义】指用于庆贺或奖励的钱物，既可表示喜事中的赏赐，也可指经营获利后给出力者的奖金；本牌取庆贺晋阶之意。\n【史料】“又移作奖励金之别名，例如营业有赢余时，取其一部以奖励出力者，俗称花红。”\n徐珂《清稗类钞》农商类〈商业有花红之奖〉"
+    },
+    "c_addrank": {
+      "name": "加官",
+      "type": "play",
+      "trigger": "自己的回合开始时，若位于进士、二甲、会元、探花或榜眼格，可打出此牌：获得3点资望，位置不变。",
+      "desc": "指在原有官职之外另加官衔，清代太师、太傅等就可作为加官授予大臣；本牌借其增添荣誉的含义给予资望奖励。",
+      "source": "“初沿明制，大臣有授公、孤者。嗣定为兼官、加官及赠官。”",
+      "sourceRef": "《清史稿》卷一百一十四《职官一》〈师傅保〉",
+      "img": "card_addrank",
+      "body": "【用法】自己的回合开始时，若位于进士、二甲、会元、探花或榜眼格，可打出此牌：获得3点资望，位置不变。\n【释义】指在原有官职之外另加官衔，清代太师、太傅等就可作为加官授予大臣；本牌借其增添荣誉的含义给予资望奖励。\n【史料】“初沿明制，大臣有授公、孤者。嗣定为兼官、加官及赠官。”\n《清史稿》卷一百一十四《职官一》〈师傅保〉"
+    },
+    "c_jiji": {
+      "name": "带级",
+      "type": "play",
+      "trigger": "自己的回合开始时打出并置于角色旁：下一次按原规则升至更高阶次、且尚未到达状元的身份格时，额外获得2点资望后弃置，同名效果不叠加。",
+      "desc": "官员调任或升任时，符合规定的加级奖励可以带入新任，体现个人功绩的延续。",
+      "source": "“凡文武改补班联相等者，任内所有加级，如原系随带之级，仍准带于各任；如系寻常加级，亦照对品补授之例，准其随带。”",
+      "sourceRef": "《钦定大清会典则例》卷九，吏部·文选清吏司〈旗员升补〉",
+      "img": "card_jiji",
+      "body": "【用法】自己的回合开始时打出并置于角色旁：下一次按原规则升至更高阶次、且尚未到达状元的身份格时，额外获得2点资望后弃置，同名效果不叠加。\n【释义】官员调任或升任时，符合规定的加级奖励可以带入新任，体现个人功绩的延续。\n【史料】“凡文武改补班联相等者，任内所有加级，如原系随带之级，仍准带于各任；如系寻常加级，亦照对品补授之例，准其随带。”\n《钦定大清会典则例》卷九，吏部·文选清吏司〈旗员升补〉"
+    },
+    "c_qingke": {
+      "name": "清客",
+      "type": "play",
+      "trigger": "自己掷出“才”并完成常规结算后打出：抽取3张功能牌，选择1张加入手牌，其余2张弃置。",
+      "desc": "指依附官绅或富贵人家的食客，常凭诗文、书画、棋艺等才艺陪伴主人、参与交游，并非正式官职。",
+      "source": "“俗所谓清客者，门下食客也，主人之待遇次于幕。都下清客，在承平时至多，然亦须才品稍兼者，方能自立。”",
+      "sourceRef": "徐珂《清稗类钞》幕僚类〈清客次于幕友〉",
+      "img": "card_qingke",
+      "body": "【用法】自己掷出“才”并完成常规结算后打出：抽取3张功能牌，选择1张加入手牌，其余2张弃置。\n【释义】指依附官绅或富贵人家的食客，常凭诗文、书画、棋艺等才艺陪伴主人、参与交游，并非正式官职。\n【史料】“俗所谓清客者，门下食客也，主人之待遇次于幕。都下清客，在承平时至多，然亦须才品稍兼者，方能自立。”\n徐珂《清稗类钞》幕僚类〈清客次于幕友〉"
+    },
+    "e_jingcha": {
+      "name": "监察",
+      "type": "event",
+      "trigger": "京察之期，全员轮流指认不谨：得票最高且唯一者被参劾，退 1 格。",
+      "desc": "指朝廷对官员定期考核，察其功过、定其去留。",
+      "source": "“京察之期，吏部会同都察院考察。”",
+      "sourceRef": "《清史稿》卷一百一十《选举五》",
+      "img": "card_canhe",
+      "body": "【用法】第 5 轮结束、三人以上对局时开始京察：按座次轮流指认一名同僚“不谨”，也可跳过；全部指认完毕后统计票数，得票最高且唯一者被参劾，退 1 格，最高票并列或无人指认则无事。\n【释义】指朝廷对官员定期考核，察其功过、定其去留。"
+    }
+  },
+  "zhuangyuanCard": {
+    "title": "张謇",
+    "body": "光绪二十年（1894）甲午恩科状元，后来弃官办实业。",
+    "source": "《清史稿》",
+    "key": "person:zhangjian",
+    "img": ""
+  },
+  "// deprecated": "LINES / nextLine / dropCell / heroPersonKey / deckComposition 已迁移到 cells[] + groups[]，引擎层过渡期兼容",
+  "LINES": {},
+  "nextLine": {
+    "hanlin": {
+      "line": "liubu",
+      "idx": 3
+    },
+    "liubu": {
+      "line": "peak",
+      "idx": 0
+    },
+    "kedao": {
+      "line": "peak",
+      "idx": 0
+    },
+    "waiguan": {
+      "line": "peak",
+      "idx": 0
+    },
+    "// keju": "已由 cells[].verdict 判词接管"
+  },
+  "dropCell": {
+    "liu": "kedao:4",
+    "he": "liubu:4",
+    "ji": "hanlin:0",
+    "zheng": "waiguan:0",
+    "lin": "waiguan:4",
+    "zeng": "waiguan:5"
+  },
+  "heroPersonKey": {
+    "liu": "person:liuyong",
+    "he": "person:heshen",
+    "ji": "person:jixu",
+    "zheng": "person:zhengbanqiao",
+    "lin": "person:linzexu",
+    "zeng": "person:zengguofan"
+  },
+  "deckComposition": {
+    "canhe": 10,
+    "bianbai": 8,
+    "dadian": 6,
+    "flower": 6,
+    "addrank": 3,
+    "jiji": 3,
+    "qingke": 2
+  },
+  "groups": [
+    {
+      "id": "keju",
+      "name": "科举圈",
+      "radius": 356,
+      "fanCount": 1,
+      "subGroups": [
+        {
+          "id": "keju_outer",
+          "name": "科举·学途",
+          "startAngle": -90,
+          "endAngle": 270
+        }
+      ],
+      "total": 15,
+      "from": "keju_1",
+      "to": "keju_15"
+    },
+    {
+      "id": "difang",
+      "name": "地方官圈",
+      "radius": 269,
+      "fanCount": 4,
+      "exitId": "jingqing",
+      "exitThreshold": {
+        "order": 45,
+        "zhiwang": 5
+      },
+      "subGroups": [
+        {
+          "id": "difang_zhouxian_zuoza",
+          "name": "州县佐杂",
+          "startAngle": -90,
+          "endAngle": 0
+        },
+        {
+          "id": "difang_zhouxian_zhuguan",
+          "name": "州县主官",
+          "startAngle": 0,
+          "endAngle": 90
+        },
+        {
+          "id": "difang_fuya",
+          "name": "府衙",
+          "startAngle": 90,
+          "endAngle": 180
+        },
+        {
+          "id": "difang_faneg_fudu",
+          "name": "藩臬督抚",
+          "startAngle": 180,
+          "endAngle": 270
+        }
+      ]
+    },
+    {
+      "id": "jingqing",
+      "name": "京卿圈",
+      "radius": 182,
+      "fanCount": 5,
+      "exitId": "zhongshu",
+      "exitThreshold": {
+        "order": 66,
+        "zhiwang": 7
+      },
+      "subGroups": [
+        {
+          "id": "jingqing_hanlin",
+          "name": "翰林院",
+          "startAngle": -90,
+          "endAngle": -18
+        },
+        {
+          "id": "jingqing_zhanshifu",
+          "name": "詹事府",
+          "startAngle": -18,
+          "endAngle": 54
+        },
+        {
+          "id": "jingqing_liuke_jian",
+          "name": "六科谏官",
+          "startAngle": 54,
+          "endAngle": 126
+        },
+        {
+          "id": "jingqing_duchayuan",
+          "name": "都察院",
+          "startAngle": 126,
+          "endAngle": 198
+        },
+        {
+          "id": "jingqing_xiaojiuqing",
+          "name": "小九卿",
+          "startAngle": 198,
+          "endAngle": 270
+        }
+      ]
+    },
+    {
+      "id": "zhongshu",
+      "name": "中枢圈",
+      "radius": 104,
+      "fanCount": 0,
+      "exitId": null,
+      "exitThreshold": null,
+      "subGroups": [
+        {
+          "id": "zhongshu_center",
+          "name": "中枢",
+          "startAngle": -90,
+          "endAngle": 270
+        }
+      ]
+    }
+  ],
+  "cells": [
+    {
+      "id": "keju_1",
+      "group": "keju",
+      "subGroup": "keju_outer",
+      "order": 1,
+      "name": "白丁",
+      "rankLevel": null,
+      "rankName": null,
+      "gridEffect": null,
+      "isExit": true,
+      "verdict": {
+        "de": "监生",
+        "cai": "案首",
+        "gong": "童生",
+        "zang": "不动"
+      },
+      "verdictExit": {
+        "de": false,
+        "cai": false,
+        "gong": false,
+        "zang": false
+      },
+      "grade": "无品级",
+      "tags": "可升｜起点｜阶次 1/15",
+      "intro": "没有功名和官职的普通平民，是求取功名的起点，无须通过考试取得；具备报考资格后，可以参加童试。",
+      "sourceText": "白民，猶言白丁也。",
+      "sourceRef": "周亮工《书影》卷七 释白民条"
+    },
+    {
+      "id": "keju_2",
+      "group": "keju",
+      "subGroup": "keju_outer",
+      "order": 2,
+      "name": "童生",
+      "rankLevel": null,
+      "rankName": null,
+      "gridEffect": null,
+      "isExit": false,
+      "verdict": {
+        "de": "廪生",
+        "cai": "监生",
+        "gong": "案首",
+        "zang": "不动"
+      },
+      "verdictExit": {
+        "de": false,
+        "cai": false,
+        "gong": false,
+        "zang": false
+      },
+      "grade": "无品级",
+      "tags": "可升｜童试应试者｜阶次 2/15",
+      "intro": "参加县试、府试、院试等童试而尚未取得生员资格的读书人，年龄不限；通过相应选拔并获准入学后，才能成为生员。",
+      "sourceText": "直省士子之試於郡縣及提學，為童子試，俗謂為小考，或小試。應試者曰童生",
+      "sourceRef": "徐珂《清稗类钞》考试类 童试"
+    },
+    {
+      "id": "keju_3",
+      "group": "keju",
+      "subGroup": "keju_outer",
+      "order": 3,
+      "name": "案首",
+      "rankLevel": null,
+      "rankName": null,
+      "gridEffect": null,
+      "isExit": false,
+      "verdict": {
+        "de": "廪生",
+        "cai": "生员",
+        "gong": "监生",
+        "zang": "不动"
+      },
+      "verdictExit": {
+        "de": false,
+        "cai": false,
+        "gong": false,
+        "zang": false
+      },
+      "grade": "无品级",
+      "tags": "可升｜童试首名｜阶次 3/15",
+      "intro": "童试某一场考试的第一名，本卡采用县试案首之义，即县试排名第一；这是考试名次，正式取得生员身份仍以入学录取为准。",
+      "sourceText": "蓋案首者，卽全邑之第一名",
+      "sourceRef": "卢湘父《万木草堂忆旧》书院应课"
+    },
+    {
+      "id": "keju_4",
+      "group": "keju",
+      "subGroup": "keju_outer",
+      "order": 4,
+      "name": "监生",
+      "rankLevel": null,
+      "rankName": null,
+      "gridEffect": null,
+      "isExit": false,
+      "verdict": {
+        "de": "举人",
+        "cai": "典史",
+        "gong": "监生",
+        "zang": "白丁"
+      },
+      "verdictExit": {
+        "de": false,
+        "cai": true,
+        "gong": false,
+        "zang": false
+      },
+      "grade": "无品级",
+      "tags": "可升｜可入仕｜国子监资格｜阶次 4/15",
+      "intro": "取得国子监学生身份或资格的人，可由恩赐、荫入、选优或捐纳等途径取得；符合规定者可以应乡试，并非童生之后必经的一场考试。",
+      "sourceText": "監生凡四：曰恩監、廕監、優監、例監。",
+      "sourceRef": "《清史稿》卷一百六 选举一 学校一"
+    },
+    {
+      "id": "keju_5",
+      "group": "keju",
+      "subGroup": "keju_outer",
+      "order": 5,
+      "name": "生员",
+      "rankLevel": null,
+      "rankName": null,
+      "gridEffect": null,
+      "isExit": false,
+      "verdict": {
+        "de": "解元",
+        "cai": "举人",
+        "gong": "廪生",
+        "zang": "童生"
+      },
+      "verdictExit": {
+        "de": false,
+        "cai": false,
+        "gong": false,
+        "zang": false
+      },
+      "grade": "无品级",
+      "tags": "可升｜秀才｜阶次 5/15",
+      "intro": "俗称秀才，童生通过县试、府试及学政主持的院试选拔，获准进入府、州、县学学籍后取得；此后仍须接受考核，按规定取得乡试应试资格。",
+      "sourceText": "生員色目，曰廩膳生、增廣生、附生。初入學曰附學生員。",
+      "sourceRef": "《清史稿》卷一百六 选举一 学校一"
+    },
+    {
+      "id": "keju_6",
+      "group": "keju",
+      "subGroup": "keju_outer",
+      "order": 6,
+      "name": "廪生",
+      "rankLevel": null,
+      "rankName": null,
+      "gridEffect": null,
+      "isExit": false,
+      "verdict": {
+        "de": "解元",
+        "cai": "举人",
+        "gong": "贡生",
+        "zang": "童生"
+      },
+      "verdictExit": {
+        "de": false,
+        "cai": false,
+        "gong": false,
+        "zang": false
+      },
+      "grade": "无品级",
+      "tags": "可升｜食廪资格｜阶次 6/15",
+      "intro": "全称廪膳生员，是生员中的一种，通常由岁试、科试成绩优者按定额依次补入，可领取官府规定的廪饩；并非所有秀才都能立即享有。",
+      "sourceText": "廩、增有定額，以歲、科兩試等第高者補充。",
+      "sourceRef": "《清史稿》卷一百六 选举一 学校一"
+    },
+    {
+      "id": "keju_7",
+      "group": "keju",
+      "subGroup": "keju_outer",
+      "order": 7,
+      "name": "贡生",
+      "rankLevel": null,
+      "rankName": null,
+      "gridEffect": null,
+      "isExit": false,
+      "verdict": {
+        "de": "举人",
+        "cai": "学正",
+        "gong": "训导",
+        "zang": "案首"
+      },
+      "verdictExit": {
+        "de": false,
+        "cai": true,
+        "gong": true,
+        "zang": false
+      },
+      "grade": "无品级",
+      "tags": "可升｜可入仕｜贡入资格｜阶次 7/15",
+      "intro": "通过岁贡、恩贡、拔贡等途径贡入国子监的读书人，各贡途分别依年资、考选、恩诏或捐纳等取得；与会试中式的“贡士”是不同身份。",
+      "sourceText": "貢生凡六：曰歲貢、恩貢、拔貢、優貢、副貢、例貢。",
+      "sourceRef": "《清史稿》卷一百六 选举一 学校一"
+    },
+    {
+      "id": "keju_8",
+      "group": "keju",
+      "subGroup": "keju_outer",
+      "order": 8,
+      "name": "举人",
+      "rankLevel": null,
+      "rankName": null,
+      "gridEffect": null,
+      "isExit": false,
+      "verdict": {
+        "de": "会元",
+        "cai": "进士",
+        "gong": "解元",
+        "zang": "生员"
+      },
+      "verdictExit": {
+        "de": false,
+        "cai": false,
+        "gong": false,
+        "zang": false
+      },
+      "grade": "无品级",
+      "tags": "可升｜乡试中式｜阶次 8/15",
+      "intro": "合资格的生员、贡监生等参加乡试，中式后取得的功名；此后可参加会试，也有按规定入仕的资格，但考中不等于立即授官。",
+      "sourceText": "三年大比，試諸生於直省，曰鄉試，中式者為舉人。",
+      "sourceRef": "《清史稿》卷一百八 选举三 文科武科"
+    },
+    {
+      "id": "keju_9",
+      "group": "keju",
+      "subGroup": "keju_outer",
+      "order": 9,
+      "name": "解元",
+      "rankLevel": null,
+      "rankName": null,
+      "gridEffect": null,
+      "isExit": false,
+      "verdict": {
+        "de": "会元",
+        "cai": "二甲",
+        "gong": "进士",
+        "zang": "廪生"
+      },
+      "verdictExit": {
+        "de": false,
+        "cai": false,
+        "gong": false,
+        "zang": false
+      },
+      "grade": "无品级",
+      "tags": "可升｜乡试第一｜阶次 9/15",
+      "intro": "一科乡试的第一名，由参加该场乡试的考生按成绩评定；身份仍属于举人，下一步可参加会试，并非举人之外另考一次所得。",
+      "sourceText": "鄉試第一曰解元",
+      "sourceRef": "《清史稿》卷一百八 选举三 文科武科"
+    },
+    {
+      "id": "keju_10",
+      "group": "keju",
+      "subGroup": "keju_outer",
+      "order": 10,
+      "name": "进士",
+      "rankLevel": null,
+      "rankName": null,
+      "gridEffect": null,
+      "isExit": false,
+      "verdict": {
+        "de": "榜眼",
+        "cai": "探花",
+        "gong": "教授",
+        "zang": "举人"
+      },
+      "verdictExit": {
+        "de": false,
+        "cai": false,
+        "gong": true,
+        "zang": false
+      },
+      "grade": "无品级",
+      "tags": "可升｜可入仕｜殿试授第｜阶次 10/15",
+      "intro": "举人通过会试成为贡士，再经殿试获得的科名，分一甲、二甲、三甲；授官、选馆或候选另按规定办理，功名本身没有官品。",
+      "sourceText": "天子親策於廷，曰殿試，名第分一、二、三甲。",
+      "sourceRef": "《清史稿》卷一百八 选举三 文科武科"
+    },
+    {
+      "id": "keju_11",
+      "group": "keju",
+      "subGroup": "keju_outer",
+      "order": 11,
+      "name": "二甲",
+      "rankLevel": null,
+      "rankName": null,
+      "gridEffect": null,
+      "isExit": false,
+      "verdict": {
+        "de": "榜眼",
+        "cai": "探花",
+        "gong": "修撰",
+        "zang": "举人"
+      },
+      "verdictExit": {
+        "de": false,
+        "cai": false,
+        "gong": true,
+        "zang": false
+      },
+      "grade": "无品级",
+      "tags": "可升｜可入仕｜殿试二甲｜阶次 11/15",
+      "intro": "殿试评定的第二等进士，赐“进士出身”，位列一甲三人之后；由贡士参加殿试后定等取得，属于进士，并非中进士后另考的一关。",
+      "sourceText": "二甲若干人，賜進士出身。",
+      "sourceRef": "《清史稿》卷一百八 选举三 文科武科"
+    },
+    {
+      "id": "keju_12",
+      "group": "keju",
+      "subGroup": "keju_outer",
+      "order": 12,
+      "name": "会元",
+      "rankLevel": null,
+      "rankName": null,
+      "gridEffect": null,
+      "isExit": false,
+      "verdict": {
+        "de": "状元",
+        "cai": "榜眼",
+        "gong": "探花",
+        "zang": "解元"
+      },
+      "verdictExit": {
+        "de": false,
+        "cai": false,
+        "gong": false,
+        "zang": false
+      },
+      "grade": "无品级",
+      "tags": "可升｜会试第一｜阶次 12/15",
+      "intro": "一科会试的第一名，由举人参加会试后按成绩评定，是同科贡士之首；后续殿试会重新评定名次，会元并不保证成为状元。",
+      "sourceText": "會試第一曰會元",
+      "sourceRef": "《清史稿》卷一百八 选举三 文科武科"
+    },
+    {
+      "id": "keju_13",
+      "group": "keju",
+      "subGroup": "keju_outer",
+      "order": 13,
+      "name": "探花",
+      "rankLevel": null,
+      "rankName": null,
+      "gridEffect": "keju_top",
+      "isExit": false,
+      "verdict": {
+        "de": "府尹",
+        "cai": "少卿",
+        "gong": "侍读",
+        "zang": "编修"
+      },
+      "verdictExit": {
+        "de": true,
+        "cai": true,
+        "gong": true,
+        "zang": true
+      },
+      "grade": "无品级",
+      "tags": "可入仕｜一甲第三｜阶次 13/15",
+      "intro": "殿试一甲第三名，赐“进士及第”，由贡士参加殿试后定名次取得；清代通常授翰林院编修，授职后的官品为正七品。",
+      "sourceText": "一甲三人，曰狀元、榜眼、探花，賜進士及第。",
+      "sourceRef": "《清史稿》卷一百八 选举三 文科武科（官品另据卷一百十五 翰林院）"
+    },
+    {
+      "id": "keju_14",
+      "group": "keju",
+      "subGroup": "keju_outer",
+      "order": 14,
+      "name": "榜眼",
+      "rankLevel": null,
+      "rankName": null,
+      "gridEffect": "keju_top",
+      "isExit": false,
+      "verdict": {
+        "de": "正卿",
+        "cai": "府尹",
+        "gong": "监察",
+        "zang": "修撰"
+      },
+      "verdictExit": {
+        "de": true,
+        "cai": true,
+        "gong": true,
+        "zang": true
+      },
+      "grade": "无品级",
+      "tags": "可入仕｜一甲第二｜阶次 14/15",
+      "intro": "殿试一甲第二名，赐“进士及第”，与状元、探花由同场殿试评定；清代通常授翰林院编修，授职后的官品为正七品。",
+      "sourceText": "榜眼、探花授編修",
+      "sourceRef": "《清史稿》卷一百八 选举三 文科武科（官品另据卷一百十五 翰林院）"
+    },
+    {
+      "id": "keju_15",
+      "group": "keju",
+      "subGroup": "keju_outer",
+      "order": 15,
+      "name": "状元",
+      "rankLevel": null,
+      "rankName": null,
+      "gridEffect": "keju_top",
+      "isExit": false,
+      "verdict": {
+        "de": "巡抚",
+        "cai": "副都",
+        "gong": "正卿",
+        "zang": "监察"
+      },
+      "verdictExit": {
+        "de": true,
+        "cai": true,
+        "gong": true,
+        "zang": true
+      },
+      "grade": "无品级",
+      "tags": "可入仕｜一甲第一｜阶次 15/15",
+      "intro": "殿试一甲第一名，赐“进士及第”，由贡士参加殿试后定名次取得；清代通常授翰林院修撰，授职后的官品为从六品。",
+      "sourceText": "一甲狀元授修撰",
+      "sourceRef": "《清史稿》卷一百八 选举三 文科武科（官品另据卷一百十五 翰林院）"
+    },
+    {
+      "id": "difang_zhouxian_zuoza_15",
+      "group": "difang",
+      "subGroup": "difang_zhouxian_zuoza",
+      "order": 15,
+      "name": "巡检",
+      "rankLevel": 18,
+      "rankName": "从九",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_zhouxian_zuoza_16",
+      "group": "difang",
+      "subGroup": "difang_zhouxian_zuoza",
+      "order": 16,
+      "name": "典史",
+      "rankLevel": 18,
+      "rankName": "从九",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_zhouxian_zuoza_17",
+      "group": "difang",
+      "subGroup": "difang_zhouxian_zuoza",
+      "order": 17,
+      "name": "主簿",
+      "rankLevel": 16,
+      "rankName": "从八",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_zhouxian_zuoza_18",
+      "group": "difang",
+      "subGroup": "difang_zhouxian_zuoza",
+      "order": 18,
+      "name": "吏目",
+      "rankLevel": 18,
+      "rankName": "从九",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_zhouxian_zhuguan_19",
+      "group": "difang",
+      "subGroup": "difang_zhouxian_zhuguan",
+      "order": 19,
+      "name": "州判",
+      "rankLevel": 12,
+      "rankName": "从六",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_zhouxian_zhuguan_20",
+      "group": "difang",
+      "subGroup": "difang_zhouxian_zhuguan",
+      "order": 20,
+      "name": "州同",
+      "rankLevel": 10,
+      "rankName": "从五",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_zhouxian_zhuguan_21",
+      "group": "difang",
+      "subGroup": "difang_zhouxian_zhuguan",
+      "order": 21,
+      "name": "知县",
+      "rankLevel": 13,
+      "rankName": "正七",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_zhouxian_zhuguan_22",
+      "group": "difang",
+      "subGroup": "difang_zhouxian_zhuguan",
+      "order": 22,
+      "name": "知州",
+      "rankLevel": 10,
+      "rankName": "从五",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_fuya_23",
+      "group": "difang",
+      "subGroup": "difang_fuya",
+      "order": 23,
+      "name": "府经历",
+      "rankLevel": 16,
+      "rankName": "从八",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_fuya_24",
+      "group": "difang",
+      "subGroup": "difang_fuya",
+      "order": 24,
+      "name": "照磨",
+      "rankLevel": 16,
+      "rankName": "从八",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_fuya_25",
+      "group": "difang",
+      "subGroup": "difang_fuya",
+      "order": 25,
+      "name": "推官",
+      "rankLevel": 12,
+      "rankName": "从六",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_fuya_26",
+      "group": "difang",
+      "subGroup": "difang_fuya",
+      "order": 26,
+      "name": "府同知",
+      "rankLevel": 10,
+      "rankName": "从五",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_fuya_27",
+      "group": "difang",
+      "subGroup": "difang_fuya",
+      "order": 27,
+      "name": "通判",
+      "rankLevel": 11,
+      "rankName": "正六",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_fuya_28",
+      "group": "difang",
+      "subGroup": "difang_fuya",
+      "order": 28,
+      "name": "知府",
+      "rankLevel": 8,
+      "rankName": "从四",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_faneg_fudu_29",
+      "group": "difang",
+      "subGroup": "difang_faneg_fudu",
+      "order": 29,
+      "name": "库大使",
+      "rankLevel": null,
+      "rankName": null,
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_faneg_fudu_30",
+      "group": "difang",
+      "subGroup": "difang_faneg_fudu",
+      "order": 30,
+      "name": "理问",
+      "rankLevel": 12,
+      "rankName": "从六",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_faneg_fudu_31",
+      "group": "difang",
+      "subGroup": "difang_faneg_fudu",
+      "order": 31,
+      "name": "参议",
+      "rankLevel": 8,
+      "rankName": "从四",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_faneg_fudu_32",
+      "group": "difang",
+      "subGroup": "difang_faneg_fudu",
+      "order": 32,
+      "name": "参政",
+      "rankLevel": 6,
+      "rankName": "从三",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_faneg_fudu_33",
+      "group": "difang",
+      "subGroup": "difang_faneg_fudu",
+      "order": 33,
+      "name": "布政使",
+      "rankLevel": 4,
+      "rankName": "从二",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_faneg_fudu_34",
+      "group": "difang",
+      "subGroup": "difang_faneg_fudu",
+      "order": 34,
+      "name": "司狱",
+      "rankLevel": 18,
+      "rankName": "从九",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_faneg_fudu_35",
+      "group": "difang",
+      "subGroup": "difang_faneg_fudu",
+      "order": 35,
+      "name": "知事",
+      "rankLevel": 15,
+      "rankName": "正八",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_faneg_fudu_36",
+      "group": "difang",
+      "subGroup": "difang_faneg_fudu",
+      "order": 36,
+      "name": "佥事",
+      "rankLevel": 7,
+      "rankName": "正四",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_faneg_fudu_37",
+      "group": "difang",
+      "subGroup": "difang_faneg_fudu",
+      "order": 37,
+      "name": "副使",
+      "rankLevel": 7,
+      "rankName": "正四",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_faneg_fudu_38",
+      "group": "difang",
+      "subGroup": "difang_faneg_fudu",
+      "order": 38,
+      "name": "按察使",
+      "rankLevel": 5,
+      "rankName": "正三",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_faneg_fudu_39",
+      "group": "difang",
+      "subGroup": "difang_faneg_fudu",
+      "order": 39,
+      "name": "盐大使",
+      "rankLevel": 16,
+      "rankName": "从八",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_faneg_fudu_40",
+      "group": "difang",
+      "subGroup": "difang_faneg_fudu",
+      "order": 40,
+      "name": "运判",
+      "rankLevel": 12,
+      "rankName": "从六",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_faneg_fudu_41",
+      "group": "difang",
+      "subGroup": "difang_faneg_fudu",
+      "order": 41,
+      "name": "盐运同知",
+      "rankLevel": 10,
+      "rankName": "从五",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_faneg_fudu_42",
+      "group": "difang",
+      "subGroup": "difang_faneg_fudu",
+      "order": 42,
+      "name": "盐运使",
+      "rankLevel": 6,
+      "rankName": "从三",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_faneg_fudu_43",
+      "group": "difang",
+      "subGroup": "difang_faneg_fudu",
+      "order": 43,
+      "name": "道员",
+      "rankLevel": 7,
+      "rankName": "正四",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_faneg_fudu_44",
+      "group": "difang",
+      "subGroup": "difang_faneg_fudu",
+      "order": 44,
+      "name": "巡抚",
+      "rankLevel": 3,
+      "rankName": "正二",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "difang_faneg_fudu_45",
+      "group": "difang",
+      "subGroup": "difang_faneg_fudu",
+      "order": 45,
+      "name": "总督",
+      "rankLevel": 2,
+      "rankName": "从一",
+      "gridEffect": "exit_jingqing",
+      "isExit": true
+    },
+    {
+      "id": "jingqing_hanlin_46",
+      "group": "jingqing",
+      "subGroup": "jingqing_hanlin",
+      "order": 46,
+      "name": "待诏",
+      "rankLevel": 12,
+      "rankName": "从六",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_hanlin_47",
+      "group": "jingqing",
+      "subGroup": "jingqing_hanlin",
+      "order": 47,
+      "name": "孔目",
+      "rankLevel": 18,
+      "rankName": "从九",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_hanlin_48",
+      "group": "jingqing",
+      "subGroup": "jingqing_hanlin",
+      "order": 48,
+      "name": "检讨",
+      "rankLevel": 14,
+      "rankName": "从七",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_hanlin_49",
+      "group": "jingqing",
+      "subGroup": "jingqing_hanlin",
+      "order": 49,
+      "name": "编修",
+      "rankLevel": 13,
+      "rankName": "正七",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_hanlin_50",
+      "group": "jingqing",
+      "subGroup": "jingqing_hanlin",
+      "order": 50,
+      "name": "修撰",
+      "rankLevel": 12,
+      "rankName": "从六",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_hanlin_51",
+      "group": "jingqing",
+      "subGroup": "jingqing_hanlin",
+      "order": 51,
+      "name": "侍讲",
+      "rankLevel": 11,
+      "rankName": "正六",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_hanlin_52",
+      "group": "jingqing",
+      "subGroup": "jingqing_hanlin",
+      "order": 52,
+      "name": "侍读",
+      "rankLevel": 11,
+      "rankName": "正六",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_hanlin_53",
+      "group": "jingqing",
+      "subGroup": "jingqing_hanlin",
+      "order": 53,
+      "name": "侍讲学士",
+      "rankLevel": 8,
+      "rankName": "从四",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_hanlin_54",
+      "group": "jingqing",
+      "subGroup": "jingqing_hanlin",
+      "order": 54,
+      "name": "侍读学士",
+      "rankLevel": 8,
+      "rankName": "从四",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_hanlin_55",
+      "group": "jingqing",
+      "subGroup": "jingqing_hanlin",
+      "order": 55,
+      "name": "掌院学士",
+      "rankLevel": 4,
+      "rankName": "从二",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_zhanshifu_56",
+      "group": "jingqing",
+      "subGroup": "jingqing_zhanshifu",
+      "order": 56,
+      "name": "詹事府主簿",
+      "rankLevel": 16,
+      "rankName": "从八",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_zhanshifu_57",
+      "group": "jingqing",
+      "subGroup": "jingqing_zhanshifu",
+      "order": 57,
+      "name": "中允",
+      "rankLevel": 11,
+      "rankName": "正六",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_zhanshifu_58",
+      "group": "jingqing",
+      "subGroup": "jingqing_zhanshifu",
+      "order": 58,
+      "name": "赞善",
+      "rankLevel": 12,
+      "rankName": "从六",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_zhanshifu_59",
+      "group": "jingqing",
+      "subGroup": "jingqing_zhanshifu",
+      "order": 59,
+      "name": "庶子",
+      "rankLevel": 9,
+      "rankName": "正五",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_zhanshifu_60",
+      "group": "jingqing",
+      "subGroup": "jingqing_zhanshifu",
+      "order": 60,
+      "name": "少詹事",
+      "rankLevel": 7,
+      "rankName": "正四",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_zhanshifu_61",
+      "group": "jingqing",
+      "subGroup": "jingqing_zhanshifu",
+      "order": 61,
+      "name": "詹事",
+      "rankLevel": 5,
+      "rankName": "正三",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_liuke_jian_62",
+      "group": "jingqing",
+      "subGroup": "jingqing_liuke_jian",
+      "order": 62,
+      "name": "给事中",
+      "rankLevel": 9,
+      "rankName": "正五",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_duchayuan_63",
+      "group": "jingqing",
+      "subGroup": "jingqing_duchayuan",
+      "order": 63,
+      "name": "监察御史",
+      "rankLevel": 13,
+      "rankName": "正七",
+      "gridEffect": "skill_canhe",
+      "isExit": false
+    },
+    {
+      "id": "jingqing_duchayuan_64",
+      "group": "jingqing",
+      "subGroup": "jingqing_duchayuan",
+      "order": 64,
+      "name": "佥都御史",
+      "rankLevel": 7,
+      "rankName": "正四",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_duchayuan_65",
+      "group": "jingqing",
+      "subGroup": "jingqing_duchayuan",
+      "order": 65,
+      "name": "副都御史",
+      "rankLevel": 5,
+      "rankName": "正三",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_duchayuan_66",
+      "group": "jingqing",
+      "subGroup": "jingqing_duchayuan",
+      "order": 66,
+      "name": "左都御史",
+      "rankLevel": 2,
+      "rankName": "从一",
+      "gridEffect": "exit_zhongshu",
+      "isExit": true
+    },
+    {
+      "id": "jingqing_xiaojiuqing_67",
+      "group": "jingqing",
+      "subGroup": "jingqing_xiaojiuqing",
+      "order": 67,
+      "name": "评事",
+      "rankLevel": 16,
+      "rankName": "从八",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_xiaojiuqing_68",
+      "group": "jingqing",
+      "subGroup": "jingqing_xiaojiuqing",
+      "order": 68,
+      "name": "寺丞",
+      "rankLevel": 11,
+      "rankName": "正六",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_xiaojiuqing_69",
+      "group": "jingqing",
+      "subGroup": "jingqing_xiaojiuqing",
+      "order": 69,
+      "name": "少卿",
+      "rankLevel": 7,
+      "rankName": "正四",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_xiaojiuqing_70",
+      "group": "jingqing",
+      "subGroup": "jingqing_xiaojiuqing",
+      "order": 70,
+      "name": "卿",
+      "rankLevel": 5,
+      "rankName": "正三",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_xiaojiuqing_71",
+      "group": "jingqing",
+      "subGroup": "jingqing_xiaojiuqing",
+      "order": 71,
+      "name": "通政经历",
+      "rankLevel": 16,
+      "rankName": "从八",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_xiaojiuqing_72",
+      "group": "jingqing",
+      "subGroup": "jingqing_xiaojiuqing",
+      "order": 72,
+      "name": "通政参议",
+      "rankLevel": 10,
+      "rankName": "从五",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_xiaojiuqing_73",
+      "group": "jingqing",
+      "subGroup": "jingqing_xiaojiuqing",
+      "order": 73,
+      "name": "通政副使",
+      "rankLevel": 7,
+      "rankName": "正四",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "jingqing_xiaojiuqing_74",
+      "group": "jingqing",
+      "subGroup": "jingqing_xiaojiuqing",
+      "order": 74,
+      "name": "通政使",
+      "rankLevel": 5,
+      "rankName": "正三",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "zhongshu_75",
+      "group": "zhongshu",
+      "subGroup": "zhongshu_center",
+      "order": 75,
+      "name": "六部司务",
+      "rankLevel": 16,
+      "rankName": "从八",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "zhongshu_76",
+      "group": "zhongshu",
+      "subGroup": "zhongshu_center",
+      "order": 76,
+      "name": "主事",
+      "rankLevel": 11,
+      "rankName": "正六",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "zhongshu_77",
+      "group": "zhongshu",
+      "subGroup": "zhongshu_center",
+      "order": 77,
+      "name": "员外郎",
+      "rankLevel": 10,
+      "rankName": "从五",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "zhongshu_78",
+      "group": "zhongshu",
+      "subGroup": "zhongshu_center",
+      "order": 78,
+      "name": "郎中",
+      "rankLevel": 9,
+      "rankName": "正五",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "zhongshu_79",
+      "group": "zhongshu",
+      "subGroup": "zhongshu_center",
+      "order": 79,
+      "name": "侍郎",
+      "rankLevel": 3,
+      "rankName": "正二",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "zhongshu_80",
+      "group": "zhongshu",
+      "subGroup": "zhongshu_center",
+      "order": 80,
+      "name": "尚书",
+      "rankLevel": 2,
+      "rankName": "从一",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "zhongshu_81",
+      "group": "zhongshu",
+      "subGroup": "zhongshu_center",
+      "order": 81,
+      "name": "内阁中书",
+      "rankLevel": 14,
+      "rankName": "从七",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "zhongshu_82",
+      "group": "zhongshu",
+      "subGroup": "zhongshu_center",
+      "order": 82,
+      "name": "内阁学士",
+      "rankLevel": 4,
+      "rankName": "从二",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "zhongshu_83",
+      "group": "zhongshu",
+      "subGroup": "zhongshu_center",
+      "order": 83,
+      "name": "协办大学士",
+      "rankLevel": 2,
+      "rankName": "从一",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "zhongshu_84",
+      "group": "zhongshu",
+      "subGroup": "zhongshu_center",
+      "order": 84,
+      "name": "大学士",
+      "rankLevel": 1,
+      "rankName": "正一",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "zhongshu_85",
+      "group": "zhongshu",
+      "subGroup": "zhongshu_center",
+      "order": 85,
+      "name": "三孤",
+      "rankLevel": 2,
+      "rankName": "从一",
+      "gridEffect": null,
+      "isExit": false
+    },
+    {
+      "id": "zhongshu_86",
+      "group": "zhongshu",
+      "subGroup": "zhongshu_center",
+      "order": 86,
+      "name": "三公",
+      "rankLevel": 1,
+      "rankName": "正一",
+      "gridEffect": "win_face_de",
+      "isExit": false
+    }
+  ],
+  "groupOrderIndex": {
+    "keju": 0,
+    "difang": 1,
+    "jingqing": 2,
+    "zhongshu": 3
+  },
+  "gridEffects": {
+    "exit_jingqing": {
+      "type": "exit_group",
+      "to": "jingqing",
+      "desc": "总督 → 京卿圈"
+    },
+    "exit_zhongshu": {
+      "type": "exit_group",
+      "to": "zhongshu",
+      "desc": "左都御史 → 中枢圈"
+    },
+    "win_face_de": {
+      "type": "win_on_de",
+      "desc": "三公 + 掷德 → 荣归"
+    },
+    "skill_canhe": {
+      "type": "skill_active",
+      "desc": "监察御史自带弹劾"
+    },
+    "keju_top": {
+      "type": "keju_finish",
+      "desc": "状元 = 科举之巅，官职系统待开发"
+    },
+    "// 备注": "科举段史料判词已还原（content.json cells[0..14]），官职系统待后续开发"
+  }
+}
