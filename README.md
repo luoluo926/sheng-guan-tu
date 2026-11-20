@@ -90,7 +90,7 @@ python -m http.server 8000
 # Open http://localhost:8000/
 ```
 
-The site is published straight from the `release` branch, with no build step, so what is committed is what ships. The browser game is also available at the live link above.
+The site is published straight from the `main` branch, with no build step, so what is committed is what ships. The browser game is also available at the live link above.
 
 **Email:** [3240100942@zju.edu.cn](mailto:3240100942@zju.edu.cn) · **Issues:** [Report a problem](https://github.com/luoluo926/sheng-guan-tu/issues)
 
